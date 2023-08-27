@@ -34,8 +34,9 @@ This is a Flask-based API that generates a random 500-dimensional vector based o
    source venv/bin/activate
    
 2. Install the required dependencies:
-	```bash
-	pip install -r requirements.txt 
+   
+   ```bash
+   pip install -r requirements.txt 
 
 ## Usage
 
@@ -43,15 +44,15 @@ This is a Flask-based API that generates a random 500-dimensional vector based o
 
 To generate a random vector based on an input sentence, use the /v1/random_vector endpoint:
 
-	```bash
-	curl -X POST -H "Content-Type: application/json" -d '{"sentence": "This is an example     sentence"}' http://127.0.0.1:8000/v1/random_vector
+    ```bash
+    curl -X POST -H "Content-Type: application/json" -d '{"sentence": "This is an example     sentence"}' http://127.0.0.1:8000/v1/random_vector
 	
 2. Cached Random Vectors
 
 To access cached random vectors, use the /cached_random_vector endpoint:
 
-	```bash
-	curl http://127.0.0.1:8000/cached_random_vector
+    ```bash
+    curl http://127.0.0.1:8000/cached_random_vector
 
 ## API Documentation
 
