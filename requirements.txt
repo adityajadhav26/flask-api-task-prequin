@@ -1,0 +1,5 @@
+Flask==2.3.3
+Flask-Cors==4.0.0
+Flask-RESTx==1.1.0
+Flask-Caching==2.0.2
+gunicorn==21.2.0

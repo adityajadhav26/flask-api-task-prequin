@@ -1,0 +1,21 @@
+2023-08-27 17:46:22,620 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-27 17:46:22,620 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-27 17:46:22,620 - INFO -  * Restarting with stat
+2023-08-27 17:46:22,758 - WARNING -  * Debugger is active!
+2023-08-27 17:46:22,758 - INFO -  * Debugger PIN: 858-232-996
+2023-08-27 22:54:46,992 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-27 22:54:46,992 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-27 22:54:46,993 - INFO -  * Restarting with stat
+2023-08-27 22:54:47,121 - WARNING -  * Debugger is active!
+2023-08-27 22:54:47,122 - INFO -  * Debugger PIN: 858-232-996
+2023-08-27 22:55:02,564 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-27 22:55:02,564 - INFO - [33mPress CTRL+C to quit[0m
+2023-08-27 22:55:02,565 - INFO -  * Restarting with stat
+2023-08-27 22:55:02,688 - WARNING -  * Debugger is active!
+2023-08-27 22:55:02,689 - INFO -  * Debugger PIN: 858-232-996
+2023-08-27 22:57:20,890 - INFO - Received request for sentence: This is an example sentence
+2023-08-27 23:09:44,480 - ERROR - Error processing request: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2023-08-27 23:09:52,756 - INFO - Received request for sentence: This is an example sentence
