@@ -23,19 +23,19 @@ This is a Flask-based API that generates a random 500-dimensional vector based o
 
 1. Clone the repository:
 
-   
+   ```
    git clone https://github.com/amit2014/random-vector-api.git
    cd random-vector-api
 
 2. Create and activate a virtual environment (recommended):
    
-   
+   ````
    python3 -m venv venv
    source venv/bin/activate
    
 3. Install the required dependencies:
    
-   
+   ````
    pip install -r requirements.txt 
 
 ## Usage
