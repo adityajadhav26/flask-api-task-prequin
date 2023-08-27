@@ -37,7 +37,7 @@ This is a Flask-based API that generates a random 500-dimensional vector based o
 	```bash
 	pip install -r requirements.txt 
 
-***Usage***
+## Usage
 
 1. Generating Random Vectors
 
@@ -53,12 +53,12 @@ To access cached random vectors, use the /cached_random_vector endpoint:
 	```bash
 	curl http://127.0.0.1:8000/cached_random_vector
 
-***API Documentation***
+## API Documentation
 
 The API is documented using Swagger UI. You can access the documentation by visiting http://127.0.0.1:8000/swagger when the app is running.
 
 
-***Enhancements***
+## Enhancements
 
 
 The API has been enhanced to include the following features:
@@ -68,11 +68,11 @@ The API has been enhanced to include the following features:
 3. Pagination: Pagination for large response payloads can be implemented using query parameters.
 4. API Monitoring: Basic monitoring using logging is implemented. Advanced monitoring tools like Prometheus and Grafana can be integrated.
 
-***Contributing***
+## Contributing
 
 Contributions are welcome!
 
-***License***
+## License
 
 This project is licensed under the MIT License.
 
