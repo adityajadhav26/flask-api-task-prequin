@@ -23,42 +23,43 @@ This is a Flask-based API that generates a random 500-dimensional vector based o
 
 1. Clone the repository:
 
-   ```bash
+   ```
    git clone https://github.com/amit2014/random-vector-api.git
    cd random-vector-api
 
-1. Create and activate a virtual environment (recommended):
+2. Create and activate a virtual environment (recommended):
    
-   ```bash
+   ```
    python3 -m venv venv
    source venv/bin/activate
    
-2. Install the required dependencies:
-	```bash
-	pip install -r requirements.txt 
+3. Install the required dependencies:
+   
+   ```
+   pip install -r requirements.txt 
 
-***Usage***
+## Usage
 
-1. Generating Random Vectors
+### Generating Random Vectors
 
 To generate a random vector based on an input sentence, use the /v1/random_vector endpoint:
 
-	```bash
-	curl -X POST -H "Content-Type: application/json" -d '{"sentence": "This is an example     sentence"}' http://127.0.0.1:8000/v1/random_vector
+    ```
+    curl -X POST -H "Content-Type: application/json" -d '{"sentence": "This is an example     sentence"}' http://127.0.0.1:8000/v1/random_vector
 	
-2. Cached Random Vectors
+### Cached Random Vectors
 
 To access cached random vectors, use the /cached_random_vector endpoint:
 
-	```bash
-	curl http://127.0.0.1:8000/cached_random_vector
+    ```
+    curl http://127.0.0.1:8000/cached_random_vector
 
-***API Documentation***
+## API Documentation
 
 The API is documented using Swagger UI. You can access the documentation by visiting http://127.0.0.1:8000/swagger when the app is running.
 
 
-***Enhancements***
+## Enhancements
 
 
 The API has been enhanced to include the following features:
@@ -68,11 +69,11 @@ The API has been enhanced to include the following features:
 3. Pagination: Pagination for large response payloads can be implemented using query parameters.
 4. API Monitoring: Basic monitoring using logging is implemented. Advanced monitoring tools like Prometheus and Grafana can be integrated.
 
-***Contributing***
+## Contributing
 
 Contributions are welcome!
 
-***License***
+## License
 
 This project is licensed under the MIT License.
 
