@@ -78,7 +78,7 @@ The unit tests included in this project cover the following scenarios:
 
 To run these tests, follow these steps:
 
-1. Save the test code in a file named `test_app.py` in the same directory as your `app.py`.
+1. The test code is saved in a file named `test_app.py` in the same directory as your `app.py`.
 2. Run the tests using the following command:
     ```` 
    python -m unittest test_app
